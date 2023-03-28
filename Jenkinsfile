@@ -2,7 +2,7 @@ pipeline {
    agent any
   
    environment {
-       DOCKER_HUB_REPO = "gouzylla/devops-project"
+       DOCKER_HUB_REPO = "flask-hello-world"
        CONTAINER_NAME = "flask-hello-world"
  
    }
